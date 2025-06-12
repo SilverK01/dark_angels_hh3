@@ -1,20 +1,155 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="ade4-938f-d2b5-1bbd" name="Test Force" gameSystemId="sys-b841-b32b-cd03-c318" gameSystemRevision="8" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="ade4-938f-d2b5-1bbd" name="Test Force" gameSystemId="sys-b841-b32b-cd03-c318" gameSystemRevision="8" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink import="true" name="Elites Unit" hidden="false" id="c222-b429-c30e-7771" type="selectionEntry" targetId="5b6c-05a5-f165-cd6e"/>
+    <entryLink import="true" name="Elites Unit" hidden="false" id="c222-b429-c30e-7771" type="selectionEntry" targetId="5b6c-05a5-f165-cd6e">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="c396-d2aa-b676-22c5" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="a0df-60b2-9867-0666" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
     <entryLink import="true" name="High Command Unit" hidden="false" id="9585-1bc8-ea5e-dfcc" type="selectionEntry" targetId="deab-8939-c1d2-a82a"/>
     <entryLink import="true" name="Command Unit" hidden="false" id="d648-6580-c853-8ff0" type="selectionEntry" targetId="b0de-5288-6961-72c3"/>
-    <entryLink import="true" name="Armour Unit" hidden="false" id="7eb0-d80c-abdb-8c40" type="selectionEntry" targetId="d4c5-4885-fd60-bbda"/>
-    <entryLink import="true" name="Fast Attack Unit" hidden="false" id="a4ec-2654-9a54-5107" type="selectionEntry" targetId="6584-ebf7-dc88-6721"/>
-    <entryLink import="true" name="Heavy Assault Unit" hidden="false" id="78b5-702b-d663-501a" type="selectionEntry" targetId="19c8-644b-905e-c043"/>
-    <entryLink import="true" name="Heavy Transport Unit" hidden="false" id="8da5-bca4-44de-3c68" type="selectionEntry" targetId="f7b1-029c-00e3-44f3"/>
-    <entryLink import="true" name="Lord of War Unit" hidden="false" id="163b-ca4b-7b5f-4fb8" type="selectionEntry" targetId="52ed-0e1e-5dbd-c761"/>
-    <entryLink import="true" name="Retinue Unit" hidden="false" id="6987-95c8-10f0-47ec" type="selectionEntry" targetId="8dad-60d3-dd4d-da2b"/>
-    <entryLink import="true" name="Support Unit" hidden="false" id="da72-1dba-17ab-bc26" type="selectionEntry" targetId="3583-039e-ee08-0790"/>
+    <entryLink import="true" name="Armour Unit" hidden="false" id="7eb0-d80c-abdb-8c40" type="selectionEntry" targetId="d4c5-4885-fd60-bbda">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="a5d9-09c2-5569-4503" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="b1bf-5669-28c8-b9bf" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Fast Attack Unit" hidden="false" id="a4ec-2654-9a54-5107" type="selectionEntry" targetId="6584-ebf7-dc88-6721">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="01c9-0a8f-71ad-481d" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="cb73-5485-aa8c-3b6b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Heavy Assault Unit" hidden="false" id="78b5-702b-d663-501a" type="selectionEntry" targetId="19c8-644b-905e-c043">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1e5b-c353-434d-89a2" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="cf02-ec52-c3f0-e77f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Heavy Transport Unit" hidden="false" id="8da5-bca4-44de-3c68" type="selectionEntry" targetId="f7b1-029c-00e3-44f3">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="05af-8076-7b61-7c2e" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="e63b-2828-c85f-21a6" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="7317-6787-d059-e39c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Lord of War Unit" hidden="false" id="163b-ca4b-7b5f-4fb8" type="selectionEntry" targetId="52ed-0e1e-5dbd-c761">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="b4a6-cd4e-2fce-cd99" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Retinue Unit" hidden="false" id="6987-95c8-10f0-47ec" type="selectionEntry" targetId="8dad-60d3-dd4d-da2b">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="ae8a-b95b-d108-bfef" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="b1e9-7cab-5be1-8d19" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="e63b-2828-c85f-21a6" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Support Unit" hidden="false" id="da72-1dba-17ab-bc26" type="selectionEntry" targetId="3583-039e-ee08-0790">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="d8c1-b72d-792a-b6aa" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="f3fe-c137-21f9-502b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
     <entryLink import="true" name="Transport Unit" hidden="false" id="c1f5-1b5c-e958-24a7" type="selectionEntry" targetId="af0d-5d81-1d9d-064f"/>
     <entryLink import="true" name="Troops Unit" hidden="false" id="88f3-a501-3008-4068" type="selectionEntry" targetId="38d7-a28c-743d-4aa1"/>
-    <entryLink import="true" name="War-Engine Unit" hidden="false" id="6824-24ee-4584-395c" type="selectionEntry" targetId="821e-c461-aade-e170"/>
-    <entryLink import="true" name="Warlord Unit" hidden="false" id="13f2-ae46-0d48-381f" type="selectionEntry" targetId="3db3-e924-d913-5ea4"/>
-    <entryLink import="true" name="Elites Unit" hidden="false" id="6e14-8232-0723-6e47" type="selectionEntry" targetId="5b6c-05a5-f165-cd6e"/>
+    <entryLink import="true" name="War-Engine Unit" hidden="false" id="6824-24ee-4584-395c" type="selectionEntry" targetId="821e-c461-aade-e170">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="f609-7f00-8e83-b6a1" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="4f6a-27c8-d109-4dc0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Warlord Unit" hidden="false" id="13f2-ae46-0d48-381f" type="selectionEntry" targetId="3db3-e924-d913-5ea4">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="e63b-2828-c85f-21a6" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Recon Unit" hidden="false" id="6e14-8232-0723-6e47" type="selectionEntry" targetId="3366-a328-d656-50ef">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="528c-3291-d334-3d8a" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="0aad-bafe-3307-1182" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-b841-b32b-cd03-c318" name="Mayes PoC" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-b841-b32b-cd03-c318" name="Mayes PoC" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Armour Unit" id="8be9-7435-28f0-86e8" hidden="false">
       <constraints>
@@ -162,7 +162,7 @@
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="7317-6787-d059-e39c" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
-            <modifier type="increment" value="1" field="a519-6298-8ac1-1c75">
+            <modifier type="increment" value="1" field="4dc2-ac79-2408-f5a1">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="361a-ed37-37c0-2157" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
@@ -176,7 +176,7 @@
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="f3fe-c137-21f9-502b" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
-            <modifier type="increment" value="1" field="a519-6298-8ac1-1c75">
+            <modifier type="increment" value="1" field="68e4-419c-968f-c7e7">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="d8c1-b72d-792a-b6aa" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
@@ -223,7 +223,7 @@
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="4f6a-27c8-d109-4dc0" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
-            <modifier type="increment" value="1" field="a519-6298-8ac1-1c75">
+            <modifier type="increment" value="1" field="3231-a3e7-c7ab-7eaf">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="f609-7f00-8e83-b6a1" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
@@ -237,7 +237,7 @@
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="0aad-bafe-3307-1182" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
-            <modifier type="increment" value="1" field="a519-6298-8ac1-1c75">
+            <modifier type="increment" value="1" field="61d3-8094-b8aa-254c">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="528c-3291-d334-3d8a" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
@@ -251,7 +251,7 @@
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="cf02-ec52-c3f0-e77f" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
-            <modifier type="increment" value="1" field="a519-6298-8ac1-1c75">
+            <modifier type="increment" value="1" field="8b20-31a6-27f2-36d7">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="1e5b-c353-434d-89a2" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
@@ -265,7 +265,7 @@
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="cb73-5485-aa8c-3b6b" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
-            <modifier type="increment" value="1" field="a519-6298-8ac1-1c75">
+            <modifier type="increment" value="1" field="0ded-b3cc-5565-0ba0">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="01c9-0a8f-71ad-481d" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
@@ -284,7 +284,7 @@
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="b1e9-7cab-5be1-8d19" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
-            <modifier type="increment" value="1" field="a519-6298-8ac1-1c75">
+            <modifier type="increment" value="1" field="d3cd-e93c-2207-4d6c">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="ae8a-b95b-d108-bfef" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
@@ -321,6 +321,11 @@
                 <repeat value="4" repeats="1" field="1845-5c1c-471d-1341" scope="roster" childId="any" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
               </repeats>
             </modifier>
+            <modifier type="increment" value="2" field="bb48-f807-348f-a2ef">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="b4a6-cd4e-2fce-cd99" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="0" field="1845-5c1c-471d-1341" scope="roster" shared="true" id="cd00-3348-322a-0183" includeChildSelections="true" includeChildForces="true"/>
@@ -339,11 +344,27 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="increment" value="1" field="9ec4-8a9b-1288-f864">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7131-f1fb-fd20-dbcb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="9ec4-8a9b-1288-f864">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="762d-5997-c998-228f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="7131-f1fb-fd20-dbcb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </categoryLink>
         <categoryLink name="Troops Prime" hidden="false" id="9a4c-6fad-e254-d798" targetId="3ac3-e058-1523-3969">
           <modifiers>
             <modifier type="increment" value="1" field="55e5-3f15-0638-d2d3"/>
+            <modifier type="increment" value="1" field="efc7-643c-ff0e-706b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="4a2e-368d-4fee-f8b0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </categoryLink>
         <categoryLink name="Retinue Prime" hidden="false" id="a0c0-3109-f078-2a85" targetId="cbca-7eb5-5f60-e2a4">
@@ -560,7 +581,7 @@
       </selectionEntries>
       <constraints>
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3be8-e40c-7c35-4045"/>
-        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5834-b8df-a80e-cf6e"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5834-b8df-a80e-cf6e"/>
       </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Auxiliary Detachments" id="790d-2f7c-7d6b-99b2" hidden="false">
