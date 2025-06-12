@@ -865,6 +865,14 @@
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="2854-1bb0-8e30-27f2" includeChildSelections="true"/>
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="3229-dd0c-797f-6143" includeChildSelections="true"/>
       </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="If people do not like rollers these could easily be changed into sequential tickboxes which reveal as you select the previous one" hidden="false" id="1da1-8309-f95c-6b51">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bc88-2c3f-d4f3-4e06"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="42dd-7fcc-042e-39b8"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
 </gameSystem>
