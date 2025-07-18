@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0a35-fce3-188c-b3aa" name="                         I - Dark Angels" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0a35-fce3-188c-b3aa" name="                         I - Dark Angels" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="2" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Assets" id="a476-c36f-b43d-3fd8" targetId="5334-5605-242c-d75e" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Special Rules" id="9620-2bdb-4589-56f8" targetId="106b-693b-99f2-00c3"/>
@@ -41,6 +41,128 @@
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="22ee-7208-4089-b005" id="ffa4-c22d-d3e9-6b83" primary="true" name="Warlord"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Corswain" hidden="false" id="2621-860f-a513-e11e" publicationId="b905-0414-1057-bb34" page="">
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="220"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="da00-c0d0-9204-f125" targetId="6dbf-654a-f06f-2d69" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Deathwing Companion Detachment" hidden="false" id="e547-ac83-3328-4d31" publicationId="b905-0414-1057-bb34" page="">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Deathwing Oathbearer" hidden="false" id="7048-88a4-1773-bf6a" sortIndex="1" publicationId="b905-0414-1057-bb34" page="" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c80f-3130-eb54-d636-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c80f-3130-eb54-d636-max" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Deathwing Companion" hidden="false" id="98e4-4290-bc76-63b1" sortIndex="2" publicationId="b905-0414-1057-bb34" page="" defaultAmount="4">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="30"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="ab8f-6eb7-a27a-60a4" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="34cc-7396-2eea-8776" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="55"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Retinue" hidden="false" id="4ea4-3a9f-2e06-4f74" targetId="a38e-50ff-310f-f19e" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Dreadwing Interemptors" hidden="false" id="4ac4-b32a-6840-a91e" publicationId="b905-0414-1057-bb34" page="">
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="45"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Interemptor Praefectus" hidden="false" id="7a3f-6183-5b33-2a91" sortIndex="1" publicationId="b905-0414-1057-bb34" page="">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4af7-05ff-3afb-2be7-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4af7-05ff-3afb-2be7-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Interemptor" hidden="false" id="d66a-a50b-2dc9-756a" sortIndex="2" page="" publicationId="b905-0414-1057-bb34" defaultAmount="4">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="c6b1-e546-80cc-1c09" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="56b5-4f85-0ffa-af37" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Support" hidden="false" id="d226-7cc3-313a-628b" targetId="345f-9ba6-9b02-ed5c" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Inner Circle Knights Cenobium" hidden="false" id="8f1b-e5a5-5607-612c" publicationId="b905-0414-1057-bb34" page="">
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="75"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Order Preceptor" hidden="false" id="bacc-a740-b0ed-2d55" sortIndex="1" publicationId="b905-0414-1057-bb34" page="">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="01a9-34fb-e59f-1b71-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01a9-34fb-e59f-1b71-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Order Cenobite" hidden="false" id="34df-3bf1-75f0-8ee0" sortIndex="2" page="" publicationId="b905-0414-1057-bb34" defaultAmount="4">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="50"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="5eeb-6970-e329-22da" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="a65e-65a5-8e3c-7dc3" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Elites" hidden="false" id="37b2-29a9-07f3-c3af" targetId="5d5e-958f-e388-50b5" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Marduk Sedras" hidden="false" id="80a4-255c-6fb4-e433" publicationId="b905-0414-1057-bb34" page="">
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="225"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="42b1-7414-242c-25c7" targetId="6dbf-654a-f06f-2d69" primary="true"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Corswain" hidden="false" id="4aac-f17a-e76a-2a87" type="selectionEntry" targetId="2621-860f-a513-e11e"/>
+    <entryLink import="true" name="Deathwing Companion Detachment" hidden="false" id="710a-04eb-5c7a-ecb5" type="selectionEntry" targetId="e547-ac83-3328-4d31"/>
+    <entryLink import="true" name="Dreadwing Interemptors" hidden="false" id="a083-6dee-c9b5-d7df" type="selectionEntry" targetId="4ac4-b32a-6840-a91e"/>
+    <entryLink import="true" name="Inner Circle Knights Cenobium" hidden="false" id="16fd-3c97-d855-1258" type="selectionEntry" targetId="8f1b-e5a5-5607-612c"/>
+    <entryLink import="true" name="Lion El&apos;Johnson" hidden="false" id="73a4-9470-6b61-e980" type="selectionEntry" targetId="2516-2347-2ca5-af1d"/>
+    <entryLink import="true" name="Marduk Sedras" hidden="false" id="29af-cfd3-b226-68d8" type="selectionEntry" targetId="80a4-255c-6fb4-e433"/>
+  </entryLinks>
 </catalogue>

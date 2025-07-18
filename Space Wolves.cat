@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d995-cb33-be41-ecf8" name="                         VI - Space Wolves" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="d995-cb33-be41-ecf8" name="                         VI - Space Wolves" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="2" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Assets" id="db71-05b7-0cff-28d1" importRootEntries="true" targetId="5334-5605-242c-d75e"/>
     <catalogueLink type="catalogue" name="Legiones Astartes" id="17f0-6633-7613-e326" importRootEntries="true" targetId="9b32-f350-6aa9-9c09"/>
@@ -41,6 +41,156 @@
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="22ee-7208-4089-b005" id="5801-0a82-c072-74b2" primary="true" name="Warlord"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="450"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Deathsworn Pack" hidden="false" id="cb82-a73f-b30f-c30f">
+      <categoryLinks>
+        <categoryLink targetId="3235-bd79-e9b1-60fa" id="6046-671e-4f32-16f7" primary="true" name="Heavy Assault"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Deathsworn" hidden="false" id="bafe-015a-1132-6505">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="dca5-a354-5ff9-d6e1"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="cdc4-293d-c971-b41c"/>
+          </constraints>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="30"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="25"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Geigor Fell-Hand" hidden="false" id="8280-b241-c837-f3ca">
+      <categoryLinks>
+        <categoryLink targetId="6dbf-654a-f06f-2d69" id="40e0-83d0-d68c-8a92" primary="true" name="Command"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="105"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Grey Slayer Pack" hidden="false" id="9a43-13b5-bd92-d8be">
+      <categoryLinks>
+        <categoryLink targetId="88e6-d373-4152-0dd8" id="e020-ad87-c442-be7c" primary="true" name="Troops"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Grey Slayer" hidden="false" id="22a4-4fe2-f256-c5bf" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="4a54-bbfa-6073-557f"/>
+            <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="288e-f6bd-083b-ebe5"/>
+          </constraints>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="12"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Huscarl" hidden="false" id="6117-7e9b-4647-18d7" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8fa5-ac7f-7498-debb"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf14-d7e9-5e55-9966"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="37"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hvarl Red-Blade" hidden="false" id="a681-0e72-a7fa-7bdd">
+      <categoryLinks>
+        <categoryLink targetId="6dbf-654a-f06f-2d69" id="8f82-96f2-73e6-ae4e" primary="true" name="Command"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="210"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Varagyr Wolf Guard Terminators" hidden="false" id="efd1-c611-841f-0cbb">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Thegn" hidden="false" id="e34d-2033-1311-7500" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b9b-4880-e357-4ea4"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68ba-660f-ec27-d17d"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Varagyr" hidden="false" id="59b5-a46c-5bff-2071" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="2c99-a517-2847-7482"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="fe9c-8ad9-5f0f-74e1"/>
+          </constraints>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="45"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="70"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wolf-kin of Russ" hidden="false" id="ce16-cc72-704a-bd2d">
+      <categoryLinks>
+        <categoryLink targetId="a38e-50ff-310f-f19e" id="8049-9237-783c-5193" primary="true" name="Retinue"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="100"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Freki" hidden="false" id="dabd-53c3-171f-335b">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8364-bba6-5d31-2371"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45f3-5044-daf1-199a"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Geri" hidden="false" id="dae7-eb0b-c4d8-04e1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b743-8636-5622-7f1f"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8b89-b6d8-a386-ffb1"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Caster of Runes" hidden="false" id="0fe3-fde9-4086-e3ab">
+      <categoryLinks>
+        <categoryLink targetId="6dbf-654a-f06f-2d69" id="23be-aeb9-eb69-41c9" primary="true" name="Command"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="110"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Deathsworn Pack" hidden="false" id="b0bd-300f-59df-f92e" type="selectionEntry" targetId="cb82-a73f-b30f-c30f"/>
+    <entryLink import="true" name="Caster of Runes" hidden="false" id="ba33-40ec-d766-6408" type="selectionEntry" targetId="0fe3-fde9-4086-e3ab"/>
+    <entryLink import="true" name="Geigor Fell-Hand" hidden="false" id="48ab-ffac-313a-7708" type="selectionEntry" targetId="8280-b241-c837-f3ca"/>
+    <entryLink import="true" name="Grey Slayer Pack" hidden="false" id="0171-c81f-3045-617e" type="selectionEntry" targetId="9a43-13b5-bd92-d8be"/>
+    <entryLink import="true" name="Hvarl Red-Blade" hidden="false" id="1c16-1b01-9abd-5cb9" type="selectionEntry" targetId="a681-0e72-a7fa-7bdd"/>
+    <entryLink import="true" name="Leman Russ" hidden="false" id="816c-fff9-b834-bec8" type="selectionEntry" targetId="e308-c9ee-3be5-0f71"/>
+    <entryLink import="true" name="Varagyr Wolf Guard Terminators" hidden="false" id="874a-10f5-f218-8df0" type="selectionEntry" targetId="efd1-c611-841f-0cbb"/>
+    <entryLink import="true" name="Wolf-kin of Russ" hidden="false" id="676e-7dbf-8fa7-11e5" type="selectionEntry" targetId="ce16-cc72-704a-bd2d"/>
+  </entryLinks>
 </catalogue>
