@@ -963,7 +963,7 @@ counted as having the Heterodox Trait even though he does not have the Traitor T
         <entryLink import="true" name="High Command Detachment Choice" hidden="false" id="ef0b-5365-a4cb-9548" type="selectionEntryGroup" targetId="969e-8b5b-1410-cfc6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Salamanders Adherents Squad" hidden="false" id="fecf-8e98-157d-e5ae" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Adherents Squad" hidden="false" id="fecf-8e98-157d-e5ae" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Advocate" hidden="false" id="91a8-6553-1938-aae3" defaultAmount="1" sortIndex="1">
           <profiles>
@@ -1229,7 +1229,7 @@ effects of the Limited (X) Special Rule when making Volley Attacks.</description
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Salamanders Sanctifier Squad" hidden="false" id="b278-6137-8f37-35f8" sortIndex="6">
+    <selectionEntry type="unit" import="true" name="Sanctifier Squad" hidden="false" id="b278-6137-8f37-35f8" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Consecrator" hidden="false" id="546b-c16b-710b-5eef" defaultAmount="1" sortIndex="1">
           <profiles>
@@ -1701,13 +1701,13 @@ effects of the Limited (X) Special Rule when making Volley Attacks.</description
         <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="7381-2829-dbd1-f81d" primary="true" name="High Command"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Salamanders Adherents Squad" hidden="false" id="c6be-bcb9-483e-ca2c" type="selectionEntry" targetId="fecf-8e98-157d-e5ae" sortIndex="5">
+    <entryLink import="true" name="Adherents Squad" hidden="false" id="c6be-bcb9-483e-ca2c" type="selectionEntry" targetId="fecf-8e98-157d-e5ae" sortIndex="5">
       <categoryLinks>
         <categoryLink targetId="88e6-d373-4152-0dd8" id="d831-db87-fd2d-1e7b" primary="true" name="Troops"/>
         <categoryLink targetId="f6fe-18f5-7b4d-b57a" id="480d-bf60-9156-e9ff" primary="false" name="Salamanders"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Salamanders Sanctifier Squad" hidden="false" id="df71-4618-3ec4-3b9e" type="selectionEntry" targetId="b278-6137-8f37-35f8" sortIndex="6">
+    <entryLink import="true" name="Sanctifier Squad" hidden="false" id="df71-4618-3ec4-3b9e" type="selectionEntry" targetId="b278-6137-8f37-35f8" sortIndex="6">
       <categoryLinks>
         <categoryLink targetId="345f-9ba6-9b02-ed5c" id="513c-05fa-ca76-8992" primary="true" name="Support"/>
         <categoryLink targetId="f6fe-18f5-7b4d-b57a" id="3886-9ecc-4a6d-40d9" primary="false" name="Salamanders"/>
