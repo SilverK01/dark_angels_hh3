@@ -17221,7 +17221,7 @@ If at any point there are only Rapier Carrier Models remaining in this Unit, tho
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea71-d14c-4b43-f350"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Exchange bolt pistol for:" id="509e-ed3e-1e9a-23ec" hidden="false" defaultSelectionEntryId="c22c-aae4-6274-4dcd" sortIndex="3">
+            <selectionEntryGroup name="Exchange bolt pistol for:" id="509e-ed3e-1e9a-23ec" hidden="false" defaultSelectionEntryId="c22c-aae4-6274-4dcd" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Legion Pistols" hidden="false" id="babe-b9bd-b951-7932" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf"/>
                 <entryLink import="true" name="Bolt pistol" hidden="false" id="c22c-aae4-6274-4dcd" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1"/>
@@ -17261,6 +17261,12 @@ If at any point there are only Rapier Carrier Models remaining in this Unit, tho
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5564-8e49-44f0-87af"/>
                 <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="d82a-8454-b1ec-0bbb" includeChildSelections="true"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Chainsword" hidden="false" id="0b13-dd23-cb8f-546b" type="selectionEntry" targetId="78f4-4967-2896-c3a5" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="986b-8788-288d-c877"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80fa-e10d-8886-73e5"/>
               </constraints>
             </entryLink>
           </entryLinks>
