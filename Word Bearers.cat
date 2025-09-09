@@ -630,11 +630,14 @@ If this Model is the only Model with the Unique Sub-Type in your Army, modify th
             <profile name="Soul Binding" typeId="9dfb-2fa3-00e7-8cfd" typeName="Psychic Power" hidden="false" id="7243-d558-cf07-696a">
               <characteristics>
                 <characteristic name="Summary" typeId="981f-bb86-6a74-9b20"/>
-                <characteristic name="Trigger" typeId="1be9-f118-1cf3-357e"/>
-                <characteristic name="Focus" typeId="3f2d-f6e7-e6d3-1f86"/>
-                <characteristic name="Target" typeId="2ba0-fbf8-ed6c-3770"/>
-                <characteristic name="Duration" typeId="d7d5-5b31-5b37-66c4"/>
-                <characteristic name="Process" typeId="3804-b2cf-9f1a-4ff0"/>
+                <characteristic name="Trigger" typeId="1be9-f118-1cf3-357e">The Active Player may choose to Manifest the Soul Binding Psychic Power in the Assault Phase, at the start of the Declare Weapons and Set Initiative Steps Step of the Fight Sub-Phase</characteristic>
+                <characteristic name="Focus" typeId="3f2d-f6e7-e6d3-1f86">The Focus of the Power must be a Zardu Layak Model.</characteristic>
+                <characteristic name="Target" typeId="2ba0-fbf8-ed6c-3770">The Target Unit must be an enemy Unit in the same Combat as the Focus Model.</characteristic>
+                <characteristic name="Duration" typeId="d7d5-5b31-5b37-66c4">If successfully Manifested, the effects of this Psychic Power last until the end of the Make Final Pile-in Moves Step of that Combat.</characteristic>
+                <characteristic name="Process" typeId="3804-b2cf-9f1a-4ff0">1. Once the Focus and Target Unit have been decided, make a Manifestation Check.
+2. If the Manifestation Check is successful, the Controlling Player of the Focus Model can select one Model with a Willpower Characteristic of 7 or less from the Target Unit.
+3.For the Duration of this Psychic Power, the selected Model is considered to be under the control of the Controlling Player of the Focus of this Power.
+4. If the Manifestation Check fails then there is no further effect.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -659,7 +662,12 @@ If this Model is the only Model with the Unique Sub-Type in your Army, modify th
             <categoryLink targetId="2de1-ddd6-ebb4-10df" id="20f7-2145-472c-8fde" primary="false" name="Malefic Sub-type"/>
           </categoryLinks>
           <rules>
-            <rule name="Binder of Souls" id="0795-59f5-4d5e-d30b" hidden="false"/>
+            <rule name="Binder of Souls" id="0795-59f5-4d5e-d30b" hidden="false">
+              <description>&quot;Zardu Layak has specific Psychic Powers.&quot;
+
+
+A Model with this Special Rule gains the Soul Binding Psychic Power and the Breach the Veil Psychic Power.</description>
+            </rule>
           </rules>
           <entryLinks>
             <entryLink import="true" name="Burning Lore" hidden="false" id="20a3-fef2-33b7-bce9" type="selectionEntry" targetId="1ca4-3804-949f-8ddd" sortIndex="6">
