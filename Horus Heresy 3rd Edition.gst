@@ -568,6 +568,15 @@
     <categoryEntry name="Recon - Cavalry Only" id="053a-4e53-7b12-b4ad" hidden="false">
       <comment>Militia</comment>
     </categoryEntry>
+    <categoryEntry name="Artificia Model Type" id="8dd8-e8e9-3c90-05cb" hidden="false" publicationId="5469-14da-d0a1-6092" page="82">
+      <rules>
+        <rule name="Artificia Model Type" id="1262-6cfa-8d01-ff15" hidden="false">
+          <description>The following Rules apply to all Models with the Artificia Type:
+• Models with the Artificia Type cannot gain any Cybertheurgic Statuses, but can gain Tactical Statuses or other kinds of Status effects.
+• When targeting a Unit that includes any Models with the Artificia Type, the effects of the Poisoned (X) Special Rule only trigger on a Wound Test with a result of a ‘6’ before modifiers are applied, regardless of the value of X for that variant of the Special Rule.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Crusade Force Organization Chart" id="8562-592c-8d4b-a1f0" hidden="false" childForcesLabel="Detachments" sortIndex="2">
