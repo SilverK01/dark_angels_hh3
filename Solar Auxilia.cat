@@ -7459,7 +7459,7 @@ Payer&apos;s Movement Phase continues, starting wit m performing a Fall Back Mov
                         <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Chainsword" hidden="false" id="0a14-9a94-a387-b5e2" type="selectionEntry" targetId="78f4-4967-2896-c3a5"/>
+                    <entryLink import="true" name="Chainsword" hidden="false" id="0a14-9a94-a387-b5e2" type="selectionEntry" targetId="78f4-4967-2896-c3a5" sortIndex="2"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0030-38d9-ac82-73c8"/>
@@ -7500,36 +7500,57 @@ Payer&apos;s Movement Phase continues, starting wit m performing a Fall Back Mov
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f2f-fbc9-2de3-5e1a"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="3"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Volkite charger" hidden="false" id="e236-29b7-a38f-3b30" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="6">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ac3-468e-a10f-d088"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Flamer" hidden="false" id="92c4-ef17-2785-97d7" type="selectionEntry" targetId="9a45-35cd-3806-2303" sortIndex="7">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e10-ff26-c530-d6a4"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Plasma gun" hidden="false" id="7e04-93b1-0c6d-06c7" type="selectionEntry" targetId="433d-56e0-9878-dea1" sortIndex="9">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3759-9567-2fb6-98b7"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Grenade launcher" hidden="false" id="de06-e112-8cf9-441c" type="selectionEntry" targetId="2562-e355-f8e1-4c54" sortIndex="8">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0af2-3d3f-3969-25ee"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Rotor cannon" hidden="false" id="1b8c-147a-4fa8-fa31" type="selectionEntry" targetId="05bf-af5e-be67-36a2" sortIndex="10">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0d2-2ce1-cf7e-181f"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Meltagun" hidden="false" id="707f-0fab-502a-b3d4" type="selectionEntry" targetId="b1e1-e164-5877-6734" sortIndex="11">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2da1-0125-9dd0-29da"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -7670,7 +7691,7 @@ Payer&apos;s Movement Phase continues, starting wit m performing a Fall Back Mov
                         <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Chainsword" hidden="false" id="b1d1-71d7-183a-eef0" type="selectionEntry" targetId="78f4-4967-2896-c3a5"/>
+                    <entryLink import="true" name="Chainsword" hidden="false" id="b1d1-71d7-183a-eef0" type="selectionEntry" targetId="78f4-4967-2896-c3a5" sortIndex="2"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edc1-b2d1-9ee6-493e"/>
@@ -7711,36 +7732,57 @@ Payer&apos;s Movement Phase continues, starting wit m performing a Fall Back Mov
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f88-0147-1dfb-40ca"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="3"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Volkite charger" hidden="false" id="d2bd-496f-30cc-e024" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="6">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d96-a32a-4504-7693"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Flamer" hidden="false" id="4c1d-ef48-2cbc-4802" type="selectionEntry" targetId="9a45-35cd-3806-2303" sortIndex="7">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9254-43cb-4ed8-9689"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Plasma gun" hidden="false" id="fdde-89f8-1550-ace3" type="selectionEntry" targetId="433d-56e0-9878-dea1" sortIndex="9">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a112-66e7-7669-06a9"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Grenade launcher" hidden="false" id="ad33-e952-0dbf-9bf1" type="selectionEntry" targetId="2562-e355-f8e1-4c54" sortIndex="8">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2eb9-2417-f9df-e3aa"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Rotor cannon" hidden="false" id="6a81-57bb-28f6-5e28" type="selectionEntry" targetId="05bf-af5e-be67-36a2" sortIndex="10">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f78-6f83-6254-3719"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Meltagun" hidden="false" id="b868-5e5a-0fbe-d422" type="selectionEntry" targetId="b1e1-e164-5877-6734" sortIndex="11">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bb7-70dd-efc2-6176"/>
                   </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
