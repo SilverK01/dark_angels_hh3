@@ -3247,17 +3247,6 @@ Models with this Special Rule may never have their Leadership Characteristic mod
       <description>While a Model with both the Dark Angels Trait and either the Paragon Type or Command Sub-Type is part of a Unit that includes any Models with this Special Rule, Precision Wound caused as part of a Shooting Attack cannot be allocated to that Model.</description>
     </rule>
   </sharedRules>
-  <categoryEntries>
-    <categoryEntry name="Artificia Model Type" id="8dd8-e8e9-3c90-05cb" hidden="false" publicationId="5469-14da-d0a1-6092" page="82">
-      <rules>
-        <rule name="Artificia Model Type" id="1262-6cfa-8d01-ff15" hidden="false">
-          <description>The following Rules apply to all Models with the Artificia Type:
-• Models with the Artificia Type cannot gain any Cybertheurgic Statuses, but can gain Tactical Statuses or other kinds of Status effects.
-• When targeting a Unit that includes any Models with the Artificia Type, the effects of the Poisoned (X) Special Rule only trigger on a Wound Test with a result of a ‘6’ before modifiers are applied, regardless of the value of X for that variant of the Special Rule.</description>
-        </rule>
-      </rules>
-    </categoryEntry>
-  </categoryEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Rite of War" id="f49e-6e7b-7b74-252d" hidden="false">
       <selectionEntries>
