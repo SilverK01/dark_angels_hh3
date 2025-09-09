@@ -691,7 +691,11 @@ Once per Battle, if a Unit with this Special Rule remains Stationary in the prev
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="4446-9c47-58a0-f440" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Corvid Pattern Jump Pack" hidden="false" id="c0dc-0bc8-3979-b680" type="selectionEntry" targetId="3f94-3ed7-02ee-0c1b" sortIndex="4"/>
+            <entryLink import="true" name="Corvid Pattern Jump Pack" hidden="false" id="c0dc-0bc8-3979-b680" type="selectionEntry" targetId="3f94-3ed7-02ee-0c1b" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9c27-8974-60e1-6abd"/>
+              </constraints>
+            </entryLink>
             <entryLink import="true" name="Pair of Raven&apos;s Talons" hidden="false" id="847d-0e02-a37d-c47f" type="selectionEntry" targetId="ab57-e7ca-3fc7-b256" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d85a-5b5d-4b45-855e" includeChildSelections="false"/>
@@ -785,7 +789,11 @@ Once per Battle, if a Unit with this Special Rule remains Stationary in the prev
             </infoLink>
           </infoLinks>
           <entryLinks>
-            <entryLink import="true" name="Corvid Pattern Jump Pack" hidden="false" id="6304-24a4-4cde-b17b" type="selectionEntry" targetId="3f94-3ed7-02ee-0c1b" sortIndex="4"/>
+            <entryLink import="true" name="Corvid Pattern Jump Pack" hidden="false" id="6304-24a4-4cde-b17b" type="selectionEntry" targetId="3f94-3ed7-02ee-0c1b" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7883-306a-2876-d22b"/>
+              </constraints>
+            </entryLink>
             <entryLink import="true" name="Pair of Raven&apos;s Talons" hidden="false" id="a751-ebcd-4f74-d48a" type="selectionEntry" targetId="ab57-e7ca-3fc7-b256" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="894c-1a34-7fe1-116f" includeChildSelections="false"/>
