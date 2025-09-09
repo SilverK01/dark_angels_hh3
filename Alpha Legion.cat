@@ -2157,5 +2157,203 @@ A Model with this Special Rule is always considered to be 2&quot; further away t
         <categoryLink targetId="abfa-86ab-1726-077a" id="bbb1-68e4-73e1-4cc4" primary="true" name="Army Configuration"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Tartaros Terminator Deathwing Companions" hidden="false" id="6e97-aeae-c4cc-4521" type="selectionEntry" targetId="3f9d-5f2f-a47a-bd1f" sortIndex="104">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="991e-aa9f-04eb-228a" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="7330-7e1c-9dec-cbd8" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Inner Circle Knights Cenobium – Order of the Broken Claws" hidden="false" id="7e02-4f45-4f2c-aee4" type="selectionEntry" targetId="2346-1124-5bc5-7254" sortIndex="105">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="d9b9-ff64-baed-ca49" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="427e-f4de-c45a-2e11" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Excindio Battle-automata" hidden="false" id="641b-b2e1-2ac3-a549" type="selectionEntry" targetId="f369-7a8f-853b-fdc5" sortIndex="106">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="06ed-4193-b21b-0f90" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="0614-5d86-d590-1a2e" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Firewing Enigmatus Cabal" hidden="false" id="ddd7-5368-bc05-ca62" type="selectionEntry" targetId="84d3-129c-126d-5036" sortIndex="107">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="b4d3-108e-d0a1-a7d5" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="4e86-ce5c-6729-93e9" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Palatine Blade Aquilae Squad" hidden="false" id="07b5-2a2e-ca65-ebc3" type="selectionEntry" targetId="83e2-188d-4319-a3e4" sortIndex="304">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="ccd8-238e-a0f7-a9c8" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="550a-872d-ccd3-9927" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sun Killer Squad" hidden="false" id="09ae-b78d-807e-d9ad" type="selectionEntry" targetId="91fb-d8a8-411d-8296" sortIndex="305">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="44d6-5e7c-d3d6-6778" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="b839-8229-910c-6d22" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dominator Cohort" hidden="false" id="4805-522b-fa2c-52e5" type="selectionEntry" targetId="d1fa-8392-4117-990d" sortIndex="403">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="cefd-9682-8df9-938c" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="24b9-466c-3136-1a01" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Iron Havocs" hidden="false" id="7ed0-7993-b9b0-b411" type="selectionEntry" targetId="ed0b-1070-4e20-b597" sortIndex="404">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="ec56-8056-691e-ebf6" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="423f-0fda-e732-e9c3" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Falcon&apos;s Claws" hidden="false" id="fb16-b09a-5fde-b4e8" type="selectionEntry" targetId="50ec-3549-586e-6bdd" sortIndex="504">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="8385-4a23-9d4d-239a" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="f36d-8993-2a72-d3af" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dark Sons of Death" hidden="false" id="cbc6-c7ef-4c1f-d49b" type="selectionEntry" targetId="d002-d1d6-c784-1f15" sortIndex="505">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="7bdf-19cf-36ee-0556" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="4c38-d6c4-574b-8a79" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Jorlund Hunter Pack" hidden="false" id="9f42-ca50-fda9-fc85" type="selectionEntry" targetId="083c-9430-4a33-8233" sortIndex="604">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="2e77-40ca-3382-229b" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="d00b-aec2-2f37-7155" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fenrisian Wolf Pack" hidden="false" id="c291-e5b4-d5eb-964d" type="selectionEntry" targetId="3179-ad73-4373-bc5c" sortIndex="605">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="2de2-7744-60ed-0a27" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="7ae5-1ebf-c202-545d" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Huscarl Terminator Retinue" hidden="false" id="3d9b-a822-5152-c9ac" type="selectionEntry" targetId="03d6-e650-4864-9a0e" sortIndex="703">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="f40a-b619-2e9f-789c" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="6535-e1c5-b872-6249" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Atramentar Flay-clade" hidden="false" id="ec15-7002-1d8a-9534" type="selectionEntry" targetId="ff9f-4970-7f72-e517" sortIndex="804">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="f931-eca9-a4ea-8065" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="8c73-a20c-31e3-2411" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sanguinary Guard" hidden="false" id="e33f-b5bc-3d1b-faf7" type="selectionEntry" targetId="b862-722c-4275-8f78" sortIndex="905">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="b872-f37c-dcf3-69f7" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="7b42-d04d-257a-a4fc" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ofanim Court" hidden="false" id="1d55-093c-150d-a4d3" type="selectionEntry" targetId="cd4b-8935-4b71-aecd" sortIndex="906">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="7042-b122-f461-650c" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="9367-61c4-a7b8-2c85" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ofanim Court With Jump Packs" hidden="false" id="e239-1ff7-b5bf-2254" type="selectionEntry" targetId="0e97-f032-4f2a-91ac" sortIndex="907">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="f800-7649-7585-edc9" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="d371-974a-5cc8-70ed" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Morlock Terminator Squad" hidden="false" id="0c48-2745-1148-6978" type="selectionEntry" targetId="1c5d-f399-408b-9a24" sortIndex="1003">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="c7c6-5551-d77e-f450" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="c8b9-e690-aba8-f37b" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Red Hand Destroyer Mortalis Squad" hidden="false" id="5a88-fec4-6d3f-2b6e" type="selectionEntry" targetId="a2c1-6aaf-434a-acc3" sortIndex="1203">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="1c7f-0192-da66-be9b" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="1538-5827-68fd-c15f" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Red Hand Destroyer Assault Squad" hidden="false" id="0f59-64cc-80c9-0def" type="selectionEntry" targetId="95af-8507-44dc-bcc3" sortIndex="1204">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="73fb-0f4f-7e73-bcd8" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="5b28-cd4d-9724-36c5" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Locutarus Storm Squad" hidden="false" id="c5d9-0e7f-af33-d129" type="selectionEntry" targetId="1d7c-9f14-440c-b457" sortIndex="1303">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="795c-b687-70b1-8814" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="4b22-b7ed-2a16-901e" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fulmentarus Terminator Squad" hidden="false" id="ae8a-e475-3b3d-f6d6" type="selectionEntry" targetId="a02e-5bce-45bd-a1b5" sortIndex="1304">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="0c50-481b-718d-795d" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="d6f6-b218-72b4-2a01" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nemesis Destroyer Squad" hidden="false" id="0073-12d3-061d-f3aa" type="selectionEntry" targetId="99b9-94e2-4ef2-9cd6" sortIndex="1305">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="891e-6141-2496-81e9" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="9852-f81d-4eee-239f" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mortus Poisoner Squad" hidden="false" id="46b2-2ea3-6852-4f51" type="selectionEntry" targetId="a977-8fbb-462e-9872" sortIndex="1403">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="e52e-03cf-d211-9399" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="f050-fdb3-2160-cd82" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Numerologist Cabal" hidden="false" id="a1d9-9da3-b112-5269" type="selectionEntry" targetId="ccfe-0bd6-4e88-ba89" sortIndex="1505">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="0727-9063-abbc-6cc2" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="a6e6-f682-f55b-10aa" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ammitara Occult Intercession Cabal" hidden="false" id="09c0-384d-8a7b-9fed" type="selectionEntry" targetId="d661-5aa7-4e05-a6e5" sortIndex="1506">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="fc86-8a23-2f1f-47f9" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="78e4-871b-65e8-c61d" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chieftain Squad" hidden="false" id="988a-bdd9-3e7f-c18d" type="selectionEntry" targetId="5664-ef98-46b9-85a1" sortIndex="1603">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="91e2-776e-c21e-5e82" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="4503-d5b1-a7bb-b4d1" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Reaver Aggressor Squad" hidden="false" id="a4c7-d918-5c75-21e1" type="selectionEntry" targetId="8357-2e10-4d5c-b134" sortIndex="1604">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="560a-95cf-0d3d-0ec7" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="3ccd-4fb6-26a3-d2c3" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Procurators" hidden="false" id="6928-3fae-bbb4-3f56" type="selectionEntry" targetId="bb9d-a1b4-48d5-ac58" sortIndex="1704">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="98d6-bf7a-e1b6-c1fc" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="6b5c-fe53-831f-573d" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Procurators with Jump Packs" hidden="false" id="93b1-8351-0670-b41b" type="selectionEntry" targetId="fd26-9fa0-4360-ae66" sortIndex="1705">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="321c-45c3-f116-2589" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="a406-513a-94fa-417d" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Adherents Squad" hidden="false" id="5f1f-f0e6-ce1a-d950" type="selectionEntry" targetId="fecf-8e98-157d-e5ae" sortIndex="1803">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="28f5-9730-82b6-fac1" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="950a-c619-8b4f-3ad3" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sanctifier Squad" hidden="false" id="efed-0a93-ac08-a5f4" type="selectionEntry" targetId="b278-6137-8f37-35f8" sortIndex="1804">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="970b-dbe2-f35d-5195" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="b0fe-a652-77ca-a80d" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deliverers Squad" hidden="false" id="8740-9bf1-0eb9-1e46" type="selectionEntry" targetId="eef8-a49d-4568-a714" sortIndex="1903">
+      <categoryLinks>
+        <categoryLink targetId="fe7f-1287-4162-a65d" id="8c9f-40d3-236a-5db9" primary="true" name="Rewards of Treachery"/>
+        <categoryLink targetId="a114-fe5b-0a4f-632e" id="b63c-17ba-0822-ffe0" primary="false" name="Alpha Legion"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
