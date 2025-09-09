@@ -3875,6 +3875,7 @@
                         <cost name="Point(s)" typeId="9893-c379-920b-8982" value="1"/>
                       </costs>
                     </entryLink>
+                    <entryLink import="true" name="Militia Officer Weapons" hidden="false" id="cf74-019d-a828-b6d6" type="selectionEntryGroup" targetId="9edc-fe43-4c9e-bcac" sortIndex="7"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2179-f10d-49bc-8e2c"/>
@@ -3905,7 +3906,7 @@
                         <cost name="Point(s)" typeId="9893-c379-920b-8982" value="1"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Militia Melee Weapons" hidden="true" id="1e4a-7eab-24e9-62ba" type="selectionEntryGroup" targetId="01b9-96bd-443f-9756">
+                    <entryLink import="true" name="Militia Melee Weapons" hidden="true" id="1e4a-7eab-24e9-62ba" type="selectionEntryGroup" targetId="01b9-96bd-443f-9756" sortIndex="4">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3914,6 +3915,7 @@
                         </modifier>
                       </modifiers>
                     </entryLink>
+                    <entryLink import="true" name="Militia Officer Weapons" hidden="false" id="e077-b93a-8b70-ecc8" type="selectionEntryGroup" targetId="9edc-fe43-4c9e-bcac" sortIndex="5"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a64d-64cf-4a63-a15a"/>
