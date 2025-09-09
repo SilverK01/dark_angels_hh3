@@ -1460,7 +1460,7 @@ If the Wounds Characteristic of a Model with this Special Rule is reduced to 0 o
               <entryLinks>
                 <entryLink import="true" name="Pair of lightning claws" hidden="false" id="f04f-6ef2-f4b4-0089" type="selectionEntry" targetId="6754-24dd-5be0-26ff">
                   <costs>
-                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -1654,7 +1654,7 @@ If the Wounds Characteristic of a Model with this Special Rule is reduced to 0 o
               <entryLinks>
                 <entryLink import="true" name="Pair of lightning claws" hidden="false" id="5955-eed3-0b52-037b" type="selectionEntry" targetId="6754-24dd-5be0-26ff">
                   <costs>
-                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
                   </costs>
                 </entryLink>
               </entryLinks>
