@@ -279,7 +279,7 @@
                     <entryLink import="true" name="Militia Melee Weapons" hidden="false" id="216b-22d4-27a1-cb20" type="selectionEntryGroup" targetId="01b9-96bd-443f-9756" sortIndex="5" flatten="true"/>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9b2-6428-35ac-1588"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="d9b2-6428-35ac-1588"/>
                   </constraints>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="May replace charnable saber with:" id="59a6-0a81-91cd-2b13" hidden="false" sortIndex="2" defaultSelectionEntryId="c8bc-56aa-a20f-a4b3" flatten="false">
@@ -321,7 +321,7 @@
                     </entryLink>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c202-2449-23d9-236b"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c202-2449-23d9-236b"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -11803,7 +11803,7 @@
         </entryLink>
       </entryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e9c-6fc1-4a1b-ad87"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="0e9c-6fc1-4a1b-ad87"/>
       </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Militia Melee Weapons" id="01b9-96bd-443f-9756">
@@ -11855,7 +11855,7 @@
         </entryLink>
       </entryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10d8-7791-49a9-a5d6"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="10d8-7791-49a9-a5d6"/>
       </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Militia Pistols" id="4eb1-e777-4926-b5cf">
