@@ -2532,7 +2532,11 @@ At the start of the Move Sub-Phase, the Controlling Player of a Model with this 
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chieftain Squad" hidden="false" id="5664-ef98-46b9-85a1" page="128" publicationId="5469-14da-d0a1-6092">
       <costs>
-        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="155"/>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="30"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+        <cost name="Auxiliary Detachment(s)" typeId="3e8e-05ee-be52-12d6" value="0"/>
+        <cost name="Apex Detachment(s)" typeId="159d-855c-533d-f592" value="0"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chieftain" hidden="false" id="bf87-e130-4199-ae3b" page="128" publicationId="5469-14da-d0a1-6092" sortIndex="1">
@@ -2576,7 +2580,11 @@ At the start of the Move Sub-Phase, the Controlling Player of a Model with this 
             </profile>
           </profiles>
           <costs>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="25"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+            <cost name="Auxiliary Detachment(s)" typeId="3e8e-05ee-be52-12d6" value="0"/>
+            <cost name="Apex Detachment(s)" typeId="159d-855c-533d-f592" value="0"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="594d-fa82-13cb-a345" id="ffbf-3260-a1ce-3808" primary="false" name="Infantry Model Type"/>
